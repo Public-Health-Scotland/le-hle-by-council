@@ -38,7 +38,7 @@ ui <- fluidPage(style="width: 650px; height: 500px; ",
                 
                 div(style = "width: 20%; float: left;",
                     selectInput("sex", label = "Select sex",
-                                choices = c("Male", "female"), selected = "Female")
+                                choices = c("Male", "Female"), selected = "Female")
                 ),
                 
                 
