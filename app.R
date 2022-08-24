@@ -26,7 +26,7 @@ council_list <- sort(unique(le_hle_by_council$council[le_hle_by_council$council 
 #Using divs as issues with classing css 
 ui <- fluidPage(style="width: 650px; height: 500px; ", 
                 div(style= "width:100%", #Filters on top of page
-                    h4("Chart 2. Life Expectancy and Healthy Life Expectancy by Scottish Council"),
+                    h4("Chart 2. Life Expectancy and Healthy Life Expectancy by Scottish Councils"),
                     div(style = "width: 40%; float: left;",
                         selectInput("measure", label = "Select a measure type",
                                     choices = c("Life Expectancy", "Healthy Life Expectancy"), selected = "Life Expectancy")
