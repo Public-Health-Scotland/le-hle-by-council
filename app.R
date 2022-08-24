@@ -1,4 +1,4 @@
-#Code to create chart of life expectancy and healthy life expectancy by Scottish council.
+#Code to create chart of life expectancy and healthy life expectancy by Scottish councils.
 
 ############################.
 ## Global ----
